@@ -3,20 +3,14 @@
 }
 
 body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(17, 17, 17);;
 }
 
-.padrão {
+#principal {
     background-color: rgb(17, 17, 17);
     color: white;
     font-family: MADE TOMMY;
     border-radius: 10px;
-}
-
-.padrão h4 {
-    font-family: MADE Tommy Soft;
-    font-weight: 300;
-    padding: 15px;
 }
 
 #principal h1 {
@@ -63,24 +57,32 @@ body {
     height: auto;
 }
 
-#imagem1 figcaption{
-    padding-left: px;
+#imagem1 figcaption {
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
 }
 
 .container p {
     margin: 10px;
 }
 
-.container h2{
-    margin-left: 10px;
-}
-
 .h1_part {
-    margin-top: -580px;
+    margin-top: -500px;
     font-family: MADE Tommy Soft;
     color: rgb(239, 239, 232);
     padding: 10px;
     position: static;
+}
+
+.cred p{
+    text-align: center;
+}
+
+.cred h2{
+    text-align: center;
 }
 
 .container footer{
@@ -97,22 +99,6 @@ footer{
 }
 
 footer p a:hover{
-    color: rgb(17, 17, 17);
-    background-color: rgb(239, 239, 232);
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 3px;
-    filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
-    transform: scale(1.1);
-    transition: all 0.4s;
-}
-
-.botão a{
-    text-decoration: none;
-    color: white;
-}
-
-.botão a:hover{
     color: rgb(17, 17, 17);
     background-color: rgb(239, 239, 232);
     text-decoration: none;

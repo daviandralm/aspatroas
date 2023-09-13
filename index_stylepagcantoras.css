@@ -76,3 +76,11 @@ body {
     padding: 10px;
     position: static;
 }
+
+#anchor p{
+    text-align: center;
+}
+
+#anchor h2{
+    text-align: center;
+}
