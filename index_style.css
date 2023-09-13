@@ -82,3 +82,23 @@ body {
     padding: 10px;
     position: static;
 }
+
+.container footer{
+    margin-left: 10px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgb(239, 239, 232);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+    filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
