@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Layout HTML</title>
+    <style>
+        * { box-sizing: border-box;}
+        body {
+            font-family: arial;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        #caixa {
+           width: 80%; 
+           margin: auto;
+        }
+        h2,p,li {
+            color: rgb(0,50,100)
+        }
+        #principal{
+            background-color: rgb(242, 254, 255);
+            border-left: 1px solid rgb(0,50,100);
+            border-right: 1px solid rgb(0,50,100);
+            padding: 15px;
+        }
+        .titulo{
+            background-color: rgb(140, 57, 151);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin: 0;
+        }
+        #menu{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border-left: 1px solid rgb(0,50,100);
+            border-right: 1px solid rgb(0,50,100);
+        }
+        #menu li {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            float: left;
+            width: 25%;
+            text-align: center;
+            background-color: rgb(224, 220, 245);
+        }
+        #menu li a{
+            text-decoration: none;
+            color: rgb(0,50,100);
+            font-weight: bold;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            display: block;
+        }
+        #menu li a:hover {
+            color: rgb(44, 56, 47);
+            background-color: rgb(189, 152, 250);
+        }
+        h2{
+           text-align: center; 
+           padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa">
+        <h1 class="titulo">Primeiro Layout em HTML/CSS</h1>
+        <ul id="menu">
+            <li>
+                <a href="https://portal.ifrj.edu.br/index.php" target="_blank">Portal do IFRJ</a>
+            </li>
+            <li><a href="https://www.instagram.com/ifrj.oficial/" target="_blank">Instagram do IFRJ</a></li>
+            <li><a href="https://www.facebook.com/ifrj.oficial/" target="_blank">Facebook do IFRJ</a></li>
+            <li><a href="#">Link vazio</a></li>
+        </ul>
+        <div id="principal">
+            <h2>Área Principal da Página</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel impedit illum nisi neque atque eum in, deserunt, quidem veritatis consequatur distinctio omnis necessitatibus cum incidunt cupiditate. Non necessitatibus architecto at nihil sit amet, nostrum voluptas officiis deserunt animi nobis quaerat repudiandae quis temporibus commodi est! Autem praesentium quis error quidem!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A aliquid omnis, eos ab magnam fugit, tempora facere modi ullam dicta dignissimos voluptas odio quo labore neque qui voluptatibus dolor autem sint molestias! Natus veniam inventore, totam sit maxime, id recusandae commodi deserunt exercitationem nisi placeat illo reiciendis quaerat expedita quae excepturi iste modi non temporibus nulla molestias iusto? Quis nulla placeat repudiandae nobis illum pariatur possimus magnam exercitationem amet magni doloremque velit quas rerum soluta explicabo maxime, voluptatem nihil voluptatum expedita sint deserunt, quisquam ad? Porro, deserunt debitis aut expedita libero ut eveniet dicta blanditiis magnam maiores officia sunt nisi, nesciunt illo dolorum, animi odit. Delectus minus quos cum blanditiis voluptatibus ducimus adipisci deserunt, harum quis esse. Tenetur distinctio non quo architecto sequi error ab vero, nostrum necessitatibus rerum repellendus quaerat corrupti quia? Asperiores culpa facilis cupiditate in tenetur laudantium, nesciunt vitae necessitatibus ipsa porro error quidem pariatur consequatur mollitia.
+            </p>
+            <p>Primeiro</p>
+            <p>Segundo</p>
+            <p>Terceiro</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <h4 class="titulo">&copy; IFRJ - campus Pinheiral - 2023</h4>
+    </div>
+</body>
+</html>
